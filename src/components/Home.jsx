@@ -29,15 +29,15 @@ const Home = () => {
             go to the contact portion and fill out the form or send me an email.
           </p>
 
-          <div>
-            <button className = 'text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#F8A218] hover:border-[#F8A218]'>
-              <Link to='work' smooth={true} duration={500}>
-                View Work
-              </Link>
-              <span className = 'group-hover:rotate-90 duration-300'>
-                <HiArrowNarrowRight className = 'ml-3 ' />
-              </span>
-            </button>
+          <div className = 'max-w-[100px]'>
+            <Link to='work' smooth={true} duration={500}>
+              <button className = 'text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#F8A218] hover:border-[#F8A218]'>
+                  View Work
+                <span className = 'group-hover:rotate-90 duration-300'>
+                  <HiArrowNarrowRight className = 'ml-3 ' />
+                </span>
+              </button>
+            </Link>
           </div>
 
         </div>

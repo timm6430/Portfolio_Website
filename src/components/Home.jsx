@@ -1,14 +1,15 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
+import {Link} from 'react-scroll'
 
 const Home = () => {
   return (
-    <div className = 'w-full h-screen bg-[#186EF8]'>
+    <div name = 'home' className = 'w-full h-screen bg-[#186EF8]'>
         
         {/* Container 
             mx-auto: Centers container
         */}
-        <div className = 'max-w-[1000px] h-full mx-auto px-8 flex flex-col justify-center'>
+        <div className = 'max-w-[1000px] h-full mx-auto px-10 flex flex-col justify-center'>
 
           <p className = 'text-2xl text-[#F8A218]'>Hello, my name is</p>
 
@@ -20,16 +21,19 @@ const Home = () => {
             Welcome to my Website Portfolio
           </h2>
 
-          <p className = 'text-lg text-black py-4 max-w-[700px]'>
+          <p className = 'text-lg text-black max-w-[700px]'>
             I'm a Computer Science graduate with over a year of professional experience analyzing space systems with an 
-            emphasis on cost estimating. Equip with the skills to build websites, video games and other software applications.
-            I'm an adaptable team player with strong analytical skills and a proven track record of working well with others to
-            achieve success. I'm looking for a job as a web developer, software engineer, or data anaylst.
+            emphasis on cost estimating. I built this webite to show off my web development skills and the other projects,
+            I've worked on throughout the years. I'm constanstly making changes to this website and testing new things in the experiment page.
+            I'm looking for a job as a web or software developer, so if you like what you see and want to reach out, 
+            go to the contact portion and fill out the form or send me an email.
           </p>
 
           <div>
             <button className = 'text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#F8A218] hover:border-[#F8A218]'>
-              View Work
+              <Link to='work' smooth={true} duration={500}>
+                View Work
+              </Link>
               <span className = 'group-hover:rotate-90 duration-300'>
                 <HiArrowNarrowRight className = 'ml-3 ' />
               </span>

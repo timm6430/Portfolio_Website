@@ -1,6 +1,7 @@
 import React from 'react'
-import WorkImg from '../assets/workImg.jpeg'
-import realEstate from '../assets/realestate.jpg'
+import Platformer from '../assets/platformer.png'
+import Boomshine from '../assets/Boomshine.png'
+import Minesweeper from '../assets/minesweeper.png'
 
 const Work = () => {
   return (
@@ -16,7 +17,7 @@ const Work = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
           {/* Gird Item */}
-          <div style={{ backgroundImage: `url(${WorkImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md 
+          <div style={{ backgroundImage: `url(${Platformer})` }} className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div ">
             <div className='shadow-lg shadow-[#040c16] group container rounded-md 
                 flex justify-center text-center items-center mx-auto content-div'>
@@ -24,7 +25,7 @@ const Work = () => {
               {/* Hover effect for images */}
               <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl font bold text-white tracking-wider'>
-                  React JS Application
+                  2d Platformer
                 </span>
 
                 {/* Buttons */}
@@ -33,7 +34,7 @@ const Work = () => {
                   {/* Link to project */}
                   <a href="/">
                     <button className="text-center rounded-lg px-4 py-3 m-2
-                        bg-white text-gray-700 font-bold text-lg">Demo</button>
+                        bg-white text-gray-700 font-bold text-lg">Video</button>
                   </a>
                   <a href="/">
                     <button className="text-center rounded-lg px-4 py-3 m-2
@@ -43,7 +44,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div style={{ backgroundImage: `url(${realEstate})` }} className="shadow-lg shadow-[#040c16] group container rounded-md 
+          <div style={{ backgroundImage: `url(${Minesweeper})` }} className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div ">
             <div className='shadow-lg shadow-[#040c16] group container rounded-md 
                 flex justify-center text-center items-center mx-auto content-div'>
@@ -51,14 +52,14 @@ const Work = () => {
               {/* Hover effect for images */}
               <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl font bold text-white tracking-wider'>
-                  React JS Application
+                  Android Minesweeper
                 </span>
 
                 {/* Buttons */}
                 <div className='pt-8 text-center'>
                   <a href="/">
                     <button className="text-center rounded-lg px-4 py-3 m-2
-                        bg-white text-gray-700 font-bold text-lg">Demo</button>
+                        bg-white text-gray-700 font-bold text-lg">Video</button>
                   </a>
                   <a href="/">
                     <button className="text-center rounded-lg px-4 py-3 m-2
@@ -68,7 +69,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div style={{ backgroundImage: `url(${WorkImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md 
+          <div style={{ backgroundImage: `url(${Boomshine})` }} className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div ">
             <div className='shadow-lg shadow-[#040c16] group container rounded-md 
                 flex justify-center text-center items-center mx-auto content-div'>
@@ -76,89 +77,14 @@ const Work = () => {
               {/* Hover effect for images */}
               <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl font bold text-white tracking-wider'>
-                  React JS Application
+                  Android Boomshine
                 </span>
 
                 {/* Buttons */}
                 <div className='pt-8 text-center'>
                   <a href="/">
                     <button className="text-center rounded-lg px-4 py-3 m-2
-                        bg-white text-gray-700 font-bold text-lg">Demo</button>
-                  </a>
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2
-                        bg-white text-gray-700 font-bold text-lg">Code</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div style={{ backgroundImage: `url(${realEstate})` }} className="shadow-lg shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div ">
-            <div className='shadow-lg shadow-[#040c16] group container rounded-md 
-                flex justify-center text-center items-center mx-auto content-div'>
-
-              {/* Hover effect for images */}
-              <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font bold text-white tracking-wider'>
-                  React JS Application
-                </span>
-
-                {/* Buttons */}
-                <div className='pt-8 text-center'>
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2
-                        bg-white text-gray-700 font-bold text-lg">Demo</button>
-                  </a>
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2
-                        bg-white text-gray-700 font-bold text-lg">Code</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div style={{ backgroundImage: `url(${WorkImg})` }} className="shadow-lg shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div ">
-            <div className='shadow-lg shadow-[#040c16] group container rounded-md 
-                flex justify-center text-center items-center mx-auto content-div'>
-
-              {/* Hover effect for images */}
-              <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font bold text-white tracking-wider'>
-                  React JS Application
-                </span>
-
-                {/* Buttons */}
-                <div className='pt-8 text-center'>
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2
-                        bg-white text-gray-700 font-bold text-lg">Demo</button>
-                  </a>
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2
-                        bg-white text-gray-700 font-bold text-lg">Code</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div style={{ backgroundImage: `url(${realEstate})` }} className="shadow-lg shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div ">
-            <div className='shadow-lg shadow-[#040c16] group container rounded-md 
-                flex justify-center text-center items-center mx-auto content-div'>
-
-              {/* Hover effect for images */}
-              <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font bold text-white tracking-wider'>
-                  React JS Application
-                </span>
-
-                {/* Buttons */}
-                <div className='pt-8 text-center'>
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2
-                        bg-white text-gray-700 font-bold text-lg">Demo</button>
+                        bg-white text-gray-700 font-bold text-lg">Video</button>
                   </a>
                   <a href="/">
                     <button className="text-center rounded-lg px-4 py-3 m-2

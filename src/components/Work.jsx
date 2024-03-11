@@ -1,7 +1,8 @@
 import React from 'react'
-import Platformer from '../assets/platformer.png'
-import Boomshine from '../assets/Boomshine.png'
-import Minesweeper from '../assets/minesweeper.png'
+import Platformer from '../assets/Images/platformer.png'
+import Boomshine from '../assets/Images/Boomshine.png'
+import Minesweeper from '../assets/Images/minesweeper.png'
+import BoomshineVideo from '../assets/Videos/Boomshine.mp4'
 
 const Work = () => {
   return (
@@ -82,7 +83,7 @@ const Work = () => {
 
                 {/* Buttons */}
                 <div className='pt-8 text-center'>
-                  <a href="/">
+                  <a href="url(${BoomshineVideo})">
                     <button className="text-center rounded-lg px-4 py-3 m-2
                         bg-white text-gray-700 font-bold text-lg">Video</button>
                   </a>

@@ -3,9 +3,9 @@ import Profile from '../assets/Images/profile_pic.png'
 
 const About = () => {
   return (
-    <div name = 'about' className = 'w-full h-screen bg-[#186EF8] text-black'>
+    <div name = 'about' className = 'w-full h-full bg-[#186EF8] text-black'>
       <div className = 'w-full h-full flex flex-col justify-center items-center'>
-        <div className = 'max-w-[1000px] w-full'>
+        <div className = 'max-w-[1920px] w-full'>
           <div className = 'pb-8 pl-4'>
             <p className = 'text-4xl font-bold inline border-b-4 border-[#F8A218]'>
               About

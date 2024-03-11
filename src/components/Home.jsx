@@ -4,12 +4,12 @@ import {Link} from 'react-scroll'
 
 const Home = () => {
   return (
-    <div name = 'home' className = 'w-full h-screen bg-[#186EF8]'>
+    <div name = 'home' className = 'w-full h-full pt-[60px] bg-[#186EF8]'>
         
         {/* Container 
             mx-auto: Centers container
         */}
-        <div className = 'max-w-[1000px] h-full mx-auto px-10 flex flex-col justify-center'>
+        <div className = 'max-w-[1920px] mx-auto px-10 flex flex-col justify-center'>
 
           <p className = 'text-2xl text-[#F8A218]'>Hello, my name is</p>
 

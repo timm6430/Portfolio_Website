@@ -5,7 +5,7 @@ import JavaScript from '../assets/Images/javascript.png';
 import ReactImg from '../assets/Images/react.png';
 import GitHub from '../assets/Images/github.png';
 import Tailwind from '../assets/Images/tailwind.png';
-import Mongo from '../assets/Images/mongo.png';
+import CSharp from '../assets/Images/Csharp.png';
 import Python from '../assets/Images/Python-logo.png'
 
 const Skills = () => {
@@ -44,8 +44,8 @@ const Skills = () => {
             <p className='my-4'>Tailwind CSS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src = {Mongo} alt = 'Mongo icon'/>
-            <p className='my-4'>Mongo DB</p>
+            <img className='w-20 mx-auto' src = {CSharp} alt = 'C# icon'/>
+            <p className='my-4'>C#</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src = {Python} alt = 'Python icon'/>

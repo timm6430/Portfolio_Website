@@ -4,6 +4,7 @@ import Platformer from '../assets/Images/platformer.png'
 import Boomshine from '../assets/Images/Boomshine.png'
 import Minesweeper from '../assets/Images/minesweeper.png'
 import BoomshineVideo from '../assets/Videos/Boomshine.mp4'
+import MinesweeperVideo from '../assets/Videos/Minesweeper.mp4'
 
 const Work = () => {
   return (
@@ -34,13 +35,14 @@ const Work = () => {
                 <div className='pt-8 text-center'>
 
                   {/* Link to project */}
-                  <a href="/">
+                  <a href="https://youtu.be/lAo_W4HHvzU?si=-uiI93wjm9slDtxj" target="_blank" rel="noopener noreferrer">
                     <button className="text-center rounded-lg px-4 py-3 m-2
                         bg-white text-gray-700 font-bold text-lg">Video</button>
                   </a>
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2
-                        bg-white text-gray-700 font-bold text-lg">Code</button>
+                  <a href="https://github.com/timm6430/2D_Platformer" target="_blank" rel="noopener noreferrer">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Code
+                    </button>
                   </a>
                 </div>
               </div>
@@ -60,16 +62,12 @@ const Work = () => {
                 </span>
 
                 {/* Buttons */}
-                <div className='pt-8 text-center'>
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2
-                        bg-white text-gray-700 font-bold text-lg">Video</button>
-                  </a>
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2
-                        bg-white text-gray-700 font-bold text-lg">Code</button>
-                  </a>
-                </div>
+                <ReactPlayer width='100%' height ='100%' url={MinesweeperVideo} controls={true} />
+                <a href="https://github.com/timm6430/Boomshine" target="_blank" rel="noopener noreferrer">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           </div>

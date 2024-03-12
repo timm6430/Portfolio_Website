@@ -3,10 +3,10 @@ import Profile from '../assets/Images/profile_pic.png'
 
 const About = () => {
   return (
-    <div name = 'about' className = 'w-full h-full bg-[#186EF8] text-black'>
+    <div name = 'about' className = 'w-full h-full lg:px-[70px] md:px-[50px] px-10 bg-[#186EF8] text-black'>
       <div className = 'w-full h-full flex flex-col justify-center items-center'>
         <div className = 'max-w-[1920px] w-full'>
-          <div className = 'pb-8 pl-4'>
+          <div className = 'pb-8'>
             <p className = 'text-4xl font-bold inline border-b-4 border-[#F8A218]'>
               About
             </p>
@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className = 'max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
           <div>
-            <img src={Profile} alt="Profile Pic" />
+            <img src={Profile} alt="Profile Pic" className='rounded-full shadow-xl shadow-black'/>
           </div>
           <div className = 'text-xl'>
             <p>

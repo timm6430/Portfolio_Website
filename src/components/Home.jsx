@@ -23,10 +23,9 @@ const Home = () => {
 
           <p className = 'text-lg text-black'>
             I'm a Computer Science graduate with over a year of professional experience analyzing space systems with an 
-            emphasis on cost estimating. I built this webite to show off my web development skills and the other projects,
-            I've worked on throughout the years. I'm constanstly making changes to this website and testing new things in the experiment page.
-            I'm looking for a job as a web or software developer, so if you like what you see and want to reach out, 
-            go to the contact portion and fill out the form or send me an email.
+            emphasis on cost estimating. I built this webite to show off my web development skills and the other projects
+            I've worked on throughout the years. I'm constanstly making changes to this website and trying new things.
+            I'm looking for a job, so if you want to reach out go to the contact portion and fill out the form or send me an email.
           </p>
 
           <div className = 'max-w-[170px]'>

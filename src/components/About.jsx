@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from '../assets/Images/profile_pic.png'
+import Profile from '../assets/Images/IMG_1392.jpg'
 
 const About = () => {
   return (
@@ -18,10 +18,9 @@ const About = () => {
           </div>
           <div className = 'text-xl'>
             <p>
-              I am a passionate software developer who enjoys to create websites, video games and other software applications. 
-              I graduated from Pacific University in 2021 with a Bechalor's degree in Computer Science. I am also a sports fanatic, with my favorites
-              being football and hockey. I started playing sports at 4 years old and continued my athletic career through college. I am a great team player
-              with the mindset of getting better each and every day. If you would like to know more about me, be sure to fill out a form or send me an email.
+            I'm a passionate software developer with a knack for working with data, crafting websites, developing video games, and building various software applications. I earned my Bachelor's degree in Computer Science from Pacific University in 2021.
+            Beyond coding, I'm a dedicated sports enthusiast, particularly fond of football and hockey. My journey in sports began at the age of 4 and continued through college, instilling in me a strong team spirit and a relentless pursuit of improvement every day.
+            Curious to learn more about me? Feel free to reach out via the contact form or email. I look forward to connecting with you!
             </p>
           </div>
         </div>

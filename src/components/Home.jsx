@@ -22,10 +22,8 @@ const Home = () => {
           </h2>
 
           <p className = 'text-lg text-black'>
-            I'm a Computer Science graduate with over a year of professional experience analyzing space systems with an 
-            emphasis on cost estimating. I built this webite to show off my web development skills and the other projects
-            I've worked on throughout the years. I'm constanstly making changes to this website and trying new things.
-            I'm looking for a job, so if you want to reach out go to the contact portion and fill out the form or send me an email.
+          I'm a Computer Science graduate with over a year and a half of professional experience specializing in analyzing space systems data, with a focus on cost estimating. I've built this website to showcase my web development skills and highlight the diverse projects I've contributed to over the years.
+          I'm constantly refining this site and exploring new ideas. Currently seeking new opportunities, I invite you to reach out via the contact form or email if you'd like to connect or learn more about my work.
           </p>
 
           <div className = 'max-w-[170px]'>

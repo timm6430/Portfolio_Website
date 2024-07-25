@@ -8,7 +8,7 @@ import MinesweeperVideo from '../assets/Videos/Minesweeper.mp4'
 
 const Work = () => {
   return (
-    <div name = 'work' className='w-full h-full lg:px-[70px] md:px-[50px] p-10 text-black bg-[#186EF8]'>
+    <div name = 'work' className='w-full h-full lg:px-[70px] md:px-[50px] p-10 text-black bg-[#ebebeb]'>
       <div className=' w-full h-full max-w-[1920px] mx-auto py-4 flex flex-col justify-center'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-[#F8A218] text-black'>Work</p>

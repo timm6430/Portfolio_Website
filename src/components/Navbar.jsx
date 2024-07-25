@@ -9,13 +9,13 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
   return (
-    <div className = 'fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#F8A218] text-black'>
+    <div className = 'fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#144bff] text-black'>
         <div>
             <img src = {Logo} alt = "Logo" style = {{width: '50px'}}/>
         </div>
         
         {/* menu*/}
-            <ul className = 'hidden md:flex'>
+            <ul className = 'hidden md:flex font-bold'>
                 <li>
                     <Link to='home' smooth={true} duration={500}>
                         Home

@@ -10,7 +10,7 @@ import Python from '../assets/Images/Python-logo.png'
 
 const Skills = () => {
   return (
-    <div name = 'skills' className='w-full h-full lg:px-[70px] md:px-[50px] p-10 bg-[#186EF8]'>
+    <div name = 'skills' className='w-full h-full lg:px-[70px] md:px-[50px] p-10 bg-[#ffffff]'>
       {/*Container */}
       <div className='w-full max-w-[1920px] mx-auto py-4 flex flex-col justify-center'>
         <div>

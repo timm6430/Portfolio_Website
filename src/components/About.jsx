@@ -3,7 +3,7 @@ import Profile from '../assets/Images/IMG_1392.jpg'
 
 const About = () => {
   return (
-    <div name = 'about' className = 'w-full h-full lg:px-[70px] md:px-[50px] p-10 bg-[#186EF8] text-black'>
+    <div name = 'about' className = 'w-full h-full lg:px-[70px] md:px-[50px] p-10 bg-[#ebebeb] text-black'>
       <div className = 'w-full h-full flex flex-col justify-center items-center'>
         <div className = 'max-w-[1920px] w-full'>
           <div className = 'pb-8'>

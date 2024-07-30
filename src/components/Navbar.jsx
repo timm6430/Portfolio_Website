@@ -51,34 +51,42 @@ const Navbar = () => {
 
         {/* Moblie menu*/}
         {/* If !nav is true hide list, on click show list*/}
-        <ul className = {!nav ? 'hidden' : 'absolute w-full h-screen top-0 left-0 bg-[#186EF8] flex flex-col justify-center items-center'}>
-            <li className = 'py-6 text-4xl'> 
-            <Link onClick = {handleClick} to='home' smooth={true} duration={500}>
-                Home
-            </Link>
-            </li>
-            <li className = 'py-6 text-4xl'> 
-            <Link onClick = {handleClick} to='about' smooth={true} duration={500}>
-                About
-            </Link>
-            </li>
-            <li className = 'py-6 text-4xl'> 
-            <Link onClick = {handleClick} to='skills' smooth={true} duration={500}>
-                Skills
-            </Link>
-            </li>
-            <li className = 'py-6 text-4xl'> 
-            <Link onClick = {handleClick}to='work' smooth={true} duration={500}>
-                Work
-            </Link>
-            </li>
-            <li className = 'py-6 text-4xl'> 
-            <Link onClick = {handleClick} to='contact' smooth={true} duration={500}>
-                Contact
-            </Link>
-            </li>
-        </ul>
-
+        <div  className={!nav ? 'hidden' : 'fixed inset-0 w-full h-full font-bold'}>
+            <div onClick = {handleClick} className='absolute inset-0 w-full h-full bg-gray-600 opacity-50'>
+            </div>
+            <ul className =  'fixed h-screen top-0 left-0 bg-[#144bff] flex flex-col justify-start items-center'>
+                <li className = 'py-10'>
+                    <div className = 'fixed top-[7px] left-4 h-[60px]'>
+                        <img src = {Logo} alt = "Logo" style = {{width: '50px'}}/>
+                    </div>
+                </li>
+                <li className = 'py-6 text-4xl'> 
+                <Link onClick = {handleClick} to='home' smooth={true} duration={500}>
+                    Home
+                </Link>
+                </li>
+                <li className = 'py-6 text-4xl'> 
+                <Link onClick = {handleClick} to='about' smooth={true} duration={500}>
+                    About
+                </Link>
+                </li>
+                <li className = 'py-6 text-4xl'> 
+                <Link onClick = {handleClick} to='skills' smooth={true} duration={500}>
+                    Skills
+                </Link>
+                </li>
+                <li className = 'py-6 text-4xl'> 
+                <Link onClick = {handleClick}to='work' smooth={true} duration={500}>
+                    Work
+                </Link>
+                </li>
+                <li className = 'py-6 text-4xl'> 
+                <Link onClick = {handleClick} to='contact' smooth={true} duration={500}>
+                    Contact
+                </Link>
+                </li>
+            </ul>
+        </div>
         {/* Social icons*/}
         <div className='flex fixed flex-col top-[35%] left-0'>
             <ul>
